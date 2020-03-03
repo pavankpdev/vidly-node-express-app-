@@ -19,4 +19,5 @@ const Schema = new mongoose.Schema({
 
 const Model = mongoose.model("vidlygenres", Schema);
 
-module.exports = Model;
+exports.GenreSchema = Schema;
+exports.GenreModel = Model;
